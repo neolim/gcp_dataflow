@@ -1,0 +1,25 @@
+{
+  "project":{
+    "name":"<project_name>",
+    "bucket":"<bucket>",
+    "dataflow":"<df_name>",
+    "setup":"./setup.py"
+  },
+  "postgres":{
+    "host":"<host>",
+    "dbname":"<dbname>",
+    "user":"<user>",
+    "pass":"<pass>",
+    "query":"<query>",
+    "cur_itersize":100000
+  },
+  "bigquery":{
+    "project":"<project>",
+    "dataset":"<dataset>",
+    "table":"<table>",
+    "schema":"<schema>(ex. 'id INTEGER, name STRING, ... ')"
+  },
+  "file":{
+    "name":"<name>"
+  }
+}
